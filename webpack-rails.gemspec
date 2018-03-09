@@ -7,11 +7,11 @@ require "webpack/rails/version"
 Gem::Specification.new do |s|
   s.name        = "webpack-rails"
   s.version     = Webpack::Rails::VERSION
-  s.authors     = ["Michael Pearson"]
-  s.email       = ["mipearson@gmail.com"]
-  s.homepage    = "http://github.com/mipearson/webpack-rails"
-  s.summary     = "No longer maintained - use webpacker instead."
-  s.description = "No longer maintained - use webpacker instead."
+  s.authors     = ["Michael Pearson", "Eric Caleb"]
+  s.email       = ["mipearson@gmail.com", "iamcaleberic@tuta.io"]
+  s.homepage    = "http://github.com/iamcaleberic/webpack-rails"
+  s.summary     = "Simple altertive to webpacker."
+  s.description = "Simple altertive to webpacker."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib,example}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
@@ -19,5 +19,5 @@ Gem::Specification.new do |s|
 
   s.add_dependency "railties", ">= 3.2.0"
   s.add_development_dependency "rails", ">= 3.2.0"
-  s.required_ruby_version = '>= 2.0.0'
+  s.required_ruby_version = '>= 2.2.2'
 end
