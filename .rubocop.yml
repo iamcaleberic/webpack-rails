@@ -34,7 +34,7 @@ Style/AlignParameters:
 
 # indent case statements against code flow, not assignment
 Style/CaseIndentation:
-  IndentWhenRelativeTo: end
+  EnforcedStyle: end
 
 # indents against opening paren, not code flow
 Style/ClosingParenthesisIndentation:
